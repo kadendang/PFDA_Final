@@ -1,41 +1,42 @@
 # Title
+Invisighoul
 
 ## Repository
-<Link to your project's public GitHub respository>
+https://github.com/kadendang/PFDA_Final.git
 
 ## Description
-1-2 sentence description of what it will do and how it relevant to media and digital arts.
+An arcade game where the player collects as many items as possible while avoiding an invisible enemy using audio cues. This program uses computer graphics and user input to create an active experience.
 
 ## Features
-- Feature 1
-	- Short explaination of how it will be executed.
-- Feature 2
-	- Short explaination of how it will be executed.
-- Feature N 
-	- Short explaination of how it will be executed.
+- Player character
+	- The player moves their character up, down, left, or right with WASD. The player cannot move through the walls of the maze.
+- Collectable items
+	- Items randomly spawn. When the player touches an item, the item disappears, the score increases, and a new item spawns.
+- Hostile enemy with dynamic audio
+	- An invisible enemy moves around the map. The closer the enemy is to the player, the louder the music gets. The higher the score, the faster it moves.
 
 ## Challenges
-- Short sentence of any skill or topic that needs to be learnt or researched.
-- Short sentence of any skill or topic that needs to be learnt or researched.
-- Short sentence of any skill or topic that needs to be learnt or researched.
+- Impassable maze walls
+- Enemy movement
+- Change audio volume based on proximity
 
 ## Outcomes
 Ideal Outcome:
-- Briefly describe what is the ideal outcome?
+- A game with a movable player character, an enemy that ends the game on contact, impassable maze walls, randomly spawning collectables, a visible score that updates when items are collected, and audio that changes based on the player and enemy positions.
 
 Minimal Viable Outcome:
-- Briefly describe the bare essential for a good working outcome?
+- A game with a movable player character and an enemy that ends the game on contact.
 
 ## Milestones
 
 - Week 1
-  1. Goal 1
-  2. Goal 2
+  1. Controllable player
+  2. Maze walls
 
 - Week 2
-  1. Goal 1
-  2. Goal 2
+  1. Randomly spawning collectables
+  2. Score UI
 
 - Week N (Final)
-  1. Goal 1
-  2. Goal 2
+  1. Enemy AI
+  2. Dynamic audio
